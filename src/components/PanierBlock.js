@@ -6,14 +6,25 @@ import { Table } from 'reactstrap';
 
 class PanierBlock extends Component {
 
-
+    state={
+        Panier:[]
+    }
 
     handleClick = () => {
         this.props.ClosePanier(false)
     }
-
+    componentWillReceiveProps(propsReceiv){
+        console.log(this.props.Panier)
+        this.setState({
+            Panier:propsReceiv.Panier
+        })
+    }
     handleClickDelet = (index) => {
-        this.props.DeletPanier(index)
+        this.props.DeletPanier(index);
+        console.log(this.props.Panier)
+        this.setState({
+            Panier:this.props.Panier
+        })
     }
 
  /*    calculTotal = () => {
@@ -55,7 +66,7 @@ class PanierBlock extends Component {
                     <tbody>
                         
                         {
-                        this.props.Panier.map((el, index) =>(
+                        this.state.Panier.map((el, index) =>(
 
                             TotalePanier = TotalePanier + el.produit.prix * el.quantite,
 

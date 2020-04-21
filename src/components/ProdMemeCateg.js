@@ -5,7 +5,7 @@ export default class ProdMemeCateg extends Component {
         const produitsCateg = this.props.produitsCateg
         return (
             <div className="container boxMemeCateg">
-                <div class="TitreBlock">Dans la même categorie</div>
+                <div className="TitreBlock">Dans la même categorie</div>
                 {produitsCateg.map(el => (
                    
                     <div className="boxProd col-3" key={el.id}>
