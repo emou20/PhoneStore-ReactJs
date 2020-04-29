@@ -492,3 +492,26 @@ left: -5px;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
+
+.pagination {
+  width: 100%;
+  float: left;
+  margin: 15px 0px;
+}
+.pagination li{
+  display: inline;
+}
+
+.pagination li a{
+  width: auto;
+  height: 35px;
+  border: 1px #eee solid;
+  display: block;
+  margin: 0 5px;
+  padding:5px 10px;
+  cursor: pointer;
+}
+.pagination li.active a{
+  background-color: black;
+  color: #eee;
+}
