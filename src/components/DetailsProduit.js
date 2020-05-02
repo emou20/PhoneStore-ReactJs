@@ -22,7 +22,7 @@ class DetailsProduit extends Component {
     const idparset = parseInt(id,10);
     let tableau = [];
         //recuperation des produits json
-        axios.get("https://api.npoint.io/0a2e97ff28ae10da02ca")
+        axios.get("http://www.json-generator.com/api/json/get/cpqiZRPzVK?indent=2")
         .then(res => { 
             tableau = res.data
             //recherche de l'element dans le tableau produits
@@ -95,7 +95,7 @@ class DetailsProduit extends Component {
                     
                     <div className="contQuantiteProd">
                         <button className="bttQantite" onClick={() => this.clickMoin()}>-</button>
-                        <input type="text" className="inputQantite"  value={this.state.quantite}></input>
+                        <input type="text" className="inputQantite"  Value={this.state.quantite} ></input>
                         <button className="bttQantite" onClick={ () => this.clickPlus()}>+</button>
                     </div>
                     <button className="addPanier" onClick={() => this.handleClick(produit)}>Ajouter au panier</button>

@@ -1,0 +1,17 @@
+[
+	{
+		"id":1,
+		"categorie":"mobile",
+		"alias_categ":"Mobile",
+	},
+	{
+		"id":2,
+		"categorie":"Tablette",
+		"alias_categ":"Tablette",
+	},
+	{
+		"id":3,
+		"categorie":"console-de-jeux",
+		"alias_categ":"Console de jeux",
+	}
+]

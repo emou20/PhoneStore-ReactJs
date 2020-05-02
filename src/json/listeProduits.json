@@ -1,0 +1,262 @@
+[
+   {
+      "id":"1",
+      "nom":"Samsung Galaxy Fold LTE 512GB 12GB RAM SM-F900F Cosmos Noir",
+      "ref":"MOBSMG01",
+      "prix":2038,
+      "photo":"https://images.mobileshop.eu/1583248191/product-large/samsung-galaxy-fold-lte-512gb-12gb-ram-sm-f900f-cosmos-black-2.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"2",
+      "nom":"Samsung Galaxy Z Flip Dual eSIM 256GB 8GB RAM SM-F700F Mirror Pourpre",
+      "ref":"MOBSMG02",
+      "prix":1431,
+      "photo":"https://images.mobileshop.eu/1584365829/product-large/samsung-galaxy-z-flip-dual-esim-256gb-8gb-ram-sm-f700f-mirror-purple.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"3",
+      "nom":"Samsung Galaxy S20 Ultra LTE Dual SIM 128GB 12GB RAM SM-G988B/DS Cosmic Noir",
+      "ref":"MOBSMG03",
+      "prix":1266,
+      "photo":"https://images.mobileshop.eu/1585398357/product-large/samsung-galaxy-s20-ultra-lte-dual-sim-128gb-12gb-ram-sm-g988b-ds-cosmic-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"4",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Noir",
+      "ref":"MOBSMG04",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1583165744/product-large/samsung-galaxy-s20-plus-5g-dual-sim-128gb-12gb-ram-sm-g986b-ds-cosmic-black-1.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"5",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Gris",
+      "ref":"MOBSMG05",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1583166315/product-large/samsung-galaxy-s20-plus-5g-dual-sim-128gb-12gb-ram-sm-g986b-ds-cosmic-grey-1.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"6",
+      "nom":"Samsung Galaxy Note 10 Plus Dual SIM 512GB 12GB RAM SM-N975F/DS Aura Glow Argent",
+      "ref":"MOBSMG06",
+      "prix":873,
+      "photo":"https://images.mobileshop.eu/1574706217/product-large/samsung-galaxy-note-10-plus-dual-sim-512gb-12gb-ram-sm-n975f-ds-aura-glow-silver.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"7",
+      "nom":"Samsung Galaxy Fold LTE 512GB 12GB RAM SM-F900F Cosmos Noir",
+      "ref":"MOBSMG07",
+      "prix":2038,
+      "photo":"https://images.mobileshop.eu/1583248191/product-large/samsung-galaxy-fold-lte-512gb-12gb-ram-sm-f900f-cosmos-black-2.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"8",
+      "nom":"Samsung Galaxy Z Flip Dual eSIM 256GB 8GB RAM SM-F700F Mirror Pourpre",
+      "ref":"MOBSMG08",
+      "prix":1431,
+      "photo":"https://images.mobileshop.eu/1584365829/product-large/samsung-galaxy-z-flip-dual-esim-256gb-8gb-ram-sm-f700f-mirror-purple.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"9",
+      "nom":"Samsung Galaxy S20 Ultra LTE Dual SIM 128GB 12GB RAM SM-G988B/DS Cosmic Noir",
+      "ref":"MOBSMG09",
+      "prix":1266,
+      "photo":"https://images.mobileshop.eu/1585398357/product-large/samsung-galaxy-s20-ultra-lte-dual-sim-128gb-12gb-ram-sm-g988b-ds-cosmic-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"10",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Noir",
+      "ref":"MOBSMG10",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1583165744/product-large/samsung-galaxy-s20-plus-5g-dual-sim-128gb-12gb-ram-sm-g986b-ds-cosmic-black-1.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"11",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Gris",
+      "ref":"MOBSMG11",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1583166315/product-large/samsung-galaxy-s20-plus-5g-dual-sim-128gb-12gb-ram-sm-g986b-ds-cosmic-grey-1.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"12",
+      "nom":"Samsung Galaxy Note 10 Plus Dual SIM 512GB 12GB RAM SM-N975F/DS Aura Glow Argent",
+      "ref":"MOBSMG12",
+      "prix":873,
+      "photo":"https://images.mobileshop.eu/1574706217/product-large/samsung-galaxy-note-10-plus-dual-sim-512gb-12gb-ram-sm-n975f-ds-aura-glow-silver.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"mobile"
+   },
+   {
+      "id":"13",
+      "nom":"Samsung Galaxy Fold LTE 512GB 12GB RAM SM-F900F Cosmos Noir",
+      "ref":"TABSMG01",
+      "prix":2038,
+      "photo":"https://images.mobileshop.eu/1587640224/product-medium/apple-ipad-pro-12-9-2020-wifi-128gb-6gb-ram-space-grey.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"14",
+      "nom":"Samsung Galaxy Z Flip Dual eSIM 256GB 8GB RAM SM-F700F Mirror Pourpre",
+      "ref":"TABSMG02",
+      "prix":1431,
+      "photo":"https://images.mobileshop.eu/1576679729/product-medium/apple-ipad-pro-12-9-2018-wifi-cellular-64gb-silver.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"15",
+      "nom":"Samsung Galaxy S20 Ultra LTE Dual SIM 128GB 12GB RAM SM-G988B/DS Cosmic Noir",
+      "ref":"TABSMG03",
+      "prix":1266,
+      "photo":"https://images.mobileshop.eu/1569167450/product-medium/samsung-galaxy-tab-s6-wifi-128gb-6gb-ram-sm-t860n-grey.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"16",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Noir",
+      "ref":"TABSMG04",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1570534972/product-medium/apple-ipad-10-2-2019-wifi-cellular-128gb-3gb-ram-grey.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"17",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Gris",
+      "ref":"TABSMG05",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1554638893/product-medium/apple-ipad-mini-2019-wifi-64gb-grey.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"18",
+      "nom":"Samsung Galaxy Note 10 Plus Dual SIM 512GB 12GB RAM SM-N975F/DS Aura Glow Argent",
+      "ref":"TABSMG06",
+      "prix":873,
+      "photo":"https://images.mobileshop.eu/1521039451/product-medium/samsung-galaxy-tab-active-2-lte-16gb-sm-t395-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"19",
+      "nom":"Samsung Galaxy Fold LTE 512GB 12GB RAM SM-F900F Cosmos Noir",
+      "ref":"TABSMG07",
+      "prix":2038,
+      "photo":"https://images.mobileshop.eu/1554297572/product-medium/samsung-galaxy-tab-a-10-1-2019-wifi-32gb-2gb-ram-sm-t510-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"20",
+      "nom":"Samsung Galaxy Z Flip Dual eSIM 256GB 8GB RAM SM-F700F Mirror Pourpre",
+      "ref":"TABSMG08",
+      "prix":1431,
+      "photo":"https://images.mobileshop.eu/1584365829/product-large/samsung-galaxy-z-flip-dual-esim-256gb-8gb-ram-sm-f700f-mirror-purple.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"21",
+      "nom":"Samsung Galaxy S20 Ultra LTE Dual SIM 128GB 12GB RAM SM-G988B/DS Cosmic Noir",
+      "ref":"TABSMG09",
+      "prix":1266,
+      "photo":"https://images.mobileshop.eu/1540366917/product-medium/samsung-galaxy-tab-active-2-wifi-16gb-sm-t390-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"22",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Noir",
+      "ref":"TABSMG10",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1540366917/product-medium/samsung-galaxy-tab-active-2-wifi-16gb-sm-t390-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"23",
+      "nom":"Samsung Galaxy S20 Plus 5G Dual SIM 128GB 12GB RAM SM-G986B/DS Cosmic Gris",
+      "ref":"TABSMG11",
+      "prix":994,
+      "photo":"https://images.mobileshop.eu/1540366917/product-medium/samsung-galaxy-tab-active-2-wifi-16gb-sm-t390-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"24",
+      "nom":"Samsung Galaxy Note 10 Plus Dual SIM 512GB 12GB RAM SM-N975F/DS Aura Glow Argent",
+      "ref":"TABSMG12",
+      "prix":873,
+      "photo":"https://images.mobileshop.eu/1540366917/product-medium/samsung-galaxy-tab-active-2-wifi-16gb-sm-t390-black.jpg",
+      "marque":"Samsung",
+      "stoque":25,
+      "categorie":"Tablette"
+   },
+   {
+      "id":"25",
+      "nom":"Sony PlayStation 4 Slim 500GB with Fortnite and 2 pieces of Dualshock 4 Noir",
+      "ref":"CONS01",
+      "prix":416,
+      "photo":"https://images.mobileshop.eu/1586871117/product-large/sony-playstation-4-slim-500gb-with-fortnite-and-2-pieces-of-dualshock-4-black.jpg",
+      "marque":"Sony",
+      "stoque":10,
+      "categorie":"console-de-jeux"
+   },
+   {
+      "id":"26",
+      "nom":"Sony PlayStation 4 Slim 1TB Black With PS Hits (GTS + U4 + HZD) Noir",
+      "ref":"CONS02",
+      "prix":393,
+      "photo":"https://images.mobileshop.eu/1586353856/product-large/sony-playstation-4-slim-1tb-black-with-ps-hits-gts-u4-hzd-black.jpg",
+      "marque":"Sony",
+      "stoque":7,
+      "categorie":"console-de-jeux"
+   }
+]

@@ -10,7 +10,7 @@ import Authentification from "./Authentification";
 const Router = () => (
     <Switch>
         <Route exact path="/" component={Home} />
-        <Route  path="/liste-produits" component={ListeProduits} />
+        <Route  path="/liste-produits/:categorie" component={ListeProduits} />
         <Route  path="/details-produit/:id" component={DetailsProduit} />
         <Route  path="/panier" component={PanierPage} />
         <Route  path="/Authentification" component={Authentification} />

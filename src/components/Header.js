@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import IconCaddy from "./IconCaddy";
 import UserConnect from "./UserConnect";
-
-import {
-    Navbar,
-    Nav,
-    NavItem,
-    NavLink
-  } from 'reactstrap';
+import NavbarCateg from "./NavbarCateg";
 
 export default class Header extends Component {
     render() {
@@ -30,16 +24,7 @@ export default class Header extends Component {
                     <UserConnect />
                 </div>
                 <div className="navsite">
-                <Navbar color="light" light expand="md">
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                        <NavLink href="/">Accueil</NavLink>
-                        </NavItem>
-                        <NavItem>
-                        <NavLink href="/liste-produits">Mobile</NavLink>
-                        </NavItem> 
-                    </Nav>
-                </Navbar>
+                <NavbarCateg />
                 </div>
             </div>
         )

@@ -4,33 +4,46 @@ import axios from "axios"
 
 export default class ListeProduits extends Component {
      // an example array of items to be paged
-     constructor() {
-        super();
-        this.state = {
-        produit:[],
-        pageOfItems: []
+        state = {
+            produit:[],
+            pageOfItems: [],
+            categorieCourante:[]
     }
 
-    this.onChangePage = this.onChangePage.bind(this);
-}
 
+
+    
     componentDidMount() {
-        axios.get("https://api.npoint.io/0a2e97ff28ae10da02ca")
+        const categ= this.props.match.params.categorie;
+        axios.get("http://www.json-generator.com/api/json/get/cpqiZRPzVK?indent=2")
         .then(res => { 
+            const prodCateg = res.data.filter(el => categ === el.categorie)
           this.setState({ 
-              produit:res.data
+              produit:prodCateg
           });
         })
+
+
+        axios.get("http://www.json-generator.com/api/json/get/cgxLLQkkte?indent=2")
+        .then(res => { 
+            const categCourante = res.data.filter(el => categ === el.categorie)
+          this.setState({ 
+            categorieCourante:categCourante
+          });
+        })
+
+
     } 
-    onChangePage (pageOfItems){
+    onChangePage = (pageOfItems) => {
         // update state with new page of items
         this.setState({ pageOfItems: pageOfItems });
     }
     render() {
-        console.log(this.state.produit)
         return (
             <div className="container">
-                <div className="TitreBlock">Mobile</div>
+                 {this.state.categorieCourante.map(el => (
+                <div className="TitreBlock">{el.alias_categ}</div>
+                ))}
                 <div className="col conteneurBoxProd">
                 {this.state.pageOfItems.map(el => (
                     
