@@ -25,16 +25,18 @@ export default class NavbarCateg extends Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
+                    <div className="container">
                     <Nav className="mr-auto" navbar>
                         <NavItem>
                             <NavLink href="/">Accueil</NavLink>
                         </NavItem>
-                        {this.state.categ.map(el => (
-                            <NavItem>
+                        {this.state.categ.map((el, index) => (
+                            <NavItem key={index}>
                                 <NavLink href={"/liste-produits/"+el.categorie }>{el.alias_categ}</NavLink>
                             </NavItem> 
                          ))}
                     </Nav>
+                    </div>
                 </Navbar>
             </div>
         )

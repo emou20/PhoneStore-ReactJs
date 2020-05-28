@@ -2,6 +2,7 @@ import { ADD_PANIER } from "../actions/action-types";
 import { CLOSE_PANIER } from "../actions/action-types";
 import { OPEN_PANIER } from "../actions/action-types";
 import { DELET_PROD_PANIER } from "../actions/action-types";
+import { IS_LOGIN } from "../actions/action-types";
 
 
 function rootReducer(state, action) {
@@ -28,6 +29,13 @@ function rootReducer(state, action) {
 
 
     return {...new_state};
+
+  } 
+
+  if (action.type === IS_LOGIN) {
+    
+    state.islogin=action.islogin
+    return {...state}; 
 
   } 
   

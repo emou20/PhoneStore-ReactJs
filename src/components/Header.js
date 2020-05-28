@@ -8,7 +8,7 @@ export default class Header extends Component {
         return (
             <div>
                 <div className="hautHeader"></div>
-                <div className="contLogoHeader">
+                <div className="contLogoHeader container">
                     <a href="/" className="logoSite"></a>
                     <div className="blockSc">
                         <span>Service client</span>

@@ -15,7 +15,8 @@ function loadState(){
 
   return {
     Panier: [],
-    isopen: false
+    isopen: false,
+    islogin: false
   };
 }
 
