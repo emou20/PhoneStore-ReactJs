@@ -51,7 +51,6 @@ class PanierPage extends Component {
                                 <td>{el.produit.ref}</td>
                                 <td>{el.produit.nom}</td>
                                 <td className="panierPrix">{el.produit.prix * el.quantite} DT</td>
-
                                 <td><button className="deletButton" onClick={() => this.handleClickDelet(index)}></button></td>
 
                             </tr>

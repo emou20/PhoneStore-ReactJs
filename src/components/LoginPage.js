@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import { Button, FormGroup, Label, Input } from 'reactstrap';
 import { Redirect } from 'react-router';
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
+
+
 
 class LoginPage extends Component {
 
     state={
         username:'',
         password:'',
-        /* islogin:false, */
-        /*token:null, */
+        error:false
     }
-
-   /*  handleClick = () => {
-        this.props.IsLogin(true)
-    } */
 
     userNameChange = (e) =>{
         this.setState({
@@ -41,22 +38,27 @@ class LoginPage extends Component {
               
               
         }).then((resp) => {
+
             resp.json().then(result => {
-                sessionStorage.setItem('login', JSON.stringify({
-                    login:true,
-                    token:result.token,
-                }))
-                sessionStorage.setItem('user', JSON.stringify({
-                    user:result.userDetails.fullName,
-                }))
-                 /* this.setState({
-                    islogin: true,
+                console.log("resp",result.code)
+                if (result.code===401) {
+                    this.setState({
+                        error:true
+                    })
+                   
+                }
+                    sessionStorage.setItem('login', JSON.stringify({
+                        login:true,
+                        token:result.token,
+                    }))
+                    sessionStorage.setItem('user', JSON.stringify({
+                        user:result.userDetails.fullName,
+                    }))
+                    this.props.IsLogin(true)
+                    this.props.UserLogin(JSON.parse(sessionStorage.getItem('user')))   
+           
 
-                }) */
-                this.props.IsLogin(true)
-                this.props.UserLogin(JSON.parse(sessionStorage.getItem('user')))   
-
-                
+               
             })
         })
 
@@ -66,10 +68,18 @@ class LoginPage extends Component {
        if (this.props.islogin){
             return  <Redirect to='/'/>;
         }
+        let classError = "noError";
+        if (this.state.error){
+            classError = "noError toError"
+        }
         return (
             <div className="partLogin">
+                
                     <div className="titrePartInscri">Login</div>
                     <div className="nonInscriParag">Si vous étes deja inscrie , il vous suffit juste de vous connectez !</div>
+                        <div className={classError}>
+                        Vérifier votre login ou mot de passe !
+                        </div>
                         <form>
                             <FormGroup>
                                 <Label for="exampleEmail">Email</Label>
