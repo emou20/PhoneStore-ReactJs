@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import { Table } from 'reactstrap';
+import { Redirect } from 'react-router';
 
 class PanierPage extends Component {
 
@@ -10,11 +11,17 @@ class PanierPage extends Component {
         this.props.DeletPanier(index)
     }
 
+    componentDidMount(){
+        this.props.ClosePanier(false)
+    }
     
 
     render() {
         let TotalePanier = 0;
         
+        if (!this.props.islogin){
+            return  <Redirect to='/Authentification'/>;
+        }
         
         return (
             <div className="container pagePanier">
@@ -68,11 +75,15 @@ class PanierPage extends Component {
 function mapStateToProps(state){
     return {
         Panier : state.Panier,
+        islogin : state.islogin,
     }
 }
 
 const mapDispatchToProps = dispatch => {
     return { 
+        ClosePanier: (closePanier) => {
+            dispatch({type: "CLOSE_PANIER",isopen:closePanier })
+        },
         DeletPanier: (index) => {
             dispatch({type: "DELET_PROD_PANIER",Index:index })
         }

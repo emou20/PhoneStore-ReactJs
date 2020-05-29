@@ -341,6 +341,79 @@ left: -5px;
 
 
 }
+
+.userConneted {
+  width: auto;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  color: #333;
+  float: right;
+  position: relative;
+  font-size: 13px;
+  padding: 15px;
+
+}
+.userConneted::before {
+  content: "\f007";
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+/*--adjust as necessary--*/
+color: #000;
+font-size: 18px;
+padding-right: 0.5em;
+position: absolute;
+top: 10px;
+left: 0px;
+
+
+}
+
+.deconnect {
+  width: auto;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  color: #333;
+  float: right;
+  position: relative;
+  font-size: 13px;
+  padding: 15px;
+  border: none;
+
+}
+.deconnect::before {
+  content: "\f011";
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+/*--adjust as necessary--*/
+color: #000;
+font-size: 18px;
+padding-right: 0.5em;
+position: absolute;
+top: 10px;
+left: -5px;
+
+
+}
+
+
+.contConnected {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border: none;
+  color: #333;
+  float: right;
+  margin: 20px 20px 0 0;
+  position: relative;
+  font-size: 13px;
+  padding: 0px;
+}
 .Inscription {
   width: auto;
   height: 40px;

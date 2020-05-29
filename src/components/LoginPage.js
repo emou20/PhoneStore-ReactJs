@@ -8,7 +8,7 @@ class LoginPage extends Component {
     state={
         username:'',
         password:'',
-        islogin:false,
+        /* islogin:false, */
         /*token:null, */
     }
 
@@ -49,11 +49,12 @@ class LoginPage extends Component {
                 sessionStorage.setItem('user', JSON.stringify({
                     user:result.userDetails.fullName,
                 }))
-                 this.setState({
+                 /* this.setState({
                     islogin: true,
 
-                })
+                }) */
                 this.props.IsLogin(true)
+                this.props.UserLogin(JSON.parse(sessionStorage.getItem('user')))   
 
                 
             })
@@ -62,7 +63,7 @@ class LoginPage extends Component {
     }
 
     render() {
-        if (this.state.islogin){
+       if (this.props.islogin){
             return  <Redirect to='/'/>;
         }
         return (
@@ -85,16 +86,25 @@ class LoginPage extends Component {
     }
 }
 
-
+function mapStateToProps(state){
+    return {
+        islogin : state.islogin,
+        username : state.username,
+    }
+}
 
 const mapDispatchToProps = dispatch => {
     return { 
         IsLogin: (islogin) => {
-            dispatch({type: "IS_LOGIN",islogin:islogin })
+            dispatch({type: "IS_LOGIN",islogin:islogin,  })
+
+        },
+        UserLogin: (userlogin) => {
+            dispatch({type: "USER_LOGIN", userlogin:userlogin })
         }
     };
   };
 
 
 
-export default connect(null, mapDispatchToProps)(LoginPage);
+export default connect(mapStateToProps, mapDispatchToProps)(LoginPage);

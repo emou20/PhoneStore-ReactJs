@@ -14,10 +14,10 @@ export default class Header extends Component {
                         <span>Service client</span>
                         Gratuit : 09 82 21 80 90
                     </div>
-                    <div className="blockHt">
+                   {/* <div className="blockHt">
                         <span>Ouvert du Lundi au Samedi</span>
                         09:30 - 12:30 / 14h - 19h30
-                    </div>
+                    </div> */}
                     <div className="contIconCard">
                         <IconCaddy />
                     </div>

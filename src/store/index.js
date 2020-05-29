@@ -16,6 +16,7 @@ function loadState(){
   return {
     Panier: [],
     isopen: false,
+    username:{},
     islogin: false
   };
 }

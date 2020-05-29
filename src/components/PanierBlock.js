@@ -27,17 +27,7 @@ class PanierBlock extends Component {
         })
     }
 
- /*    calculTotal = () => {
-        let TotalePanier = 0;
-        this.props.Panier.forEach(element => 
-            TotalePanier = TotalePanier + element.produit.prix * element.quantite
-           
-        );
-
-
-    } */
-    
-
+  
     render() {
         let TotalePanier = 0;
         let classPanier = "panierBlock";
