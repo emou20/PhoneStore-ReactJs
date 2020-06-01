@@ -82,7 +82,7 @@ class LoginPage extends Component {
                         </div>
                         <form>
                             <FormGroup>
-                                <Label for="exampleEmail">Email</Label>
+                                <Label for="exampleEmail">Login</Label>
                                 <Input type="text" name="email" id="exampleEmail" placeholder="with a placeholder" value={this.state.username} onChange={this.userNameChange} />
                             </FormGroup>
                             <FormGroup>

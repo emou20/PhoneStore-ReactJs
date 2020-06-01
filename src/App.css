@@ -625,3 +625,8 @@ left: -5px;
   height: 40px;
   font-size: 14px;
 }
+
+.errorMessage {
+  color: #f91311;
+  font-size: 12px;
+}
